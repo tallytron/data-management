@@ -33,7 +33,8 @@ As part of cleaning of the survey response data from the vendor. I have done a f
 
 I added City and Province in addition to “postalcode” using LEFT_JOINT by “postalcode” into the dataset to help me find whether the NPS score has any geographic features. (The cc file is another file including postcode, city, province, latitude, and longitude.) 
 
-Screenshot_1.png
+<img width="359" alt="Screenshot_1" src="https://user-images.githubusercontent.com/80222038/154723710-26e174f5-f849-4998-88c4-929d7001c74c.png">
+
 
 ### 3. Data Exploration and Feature Engineering
 
