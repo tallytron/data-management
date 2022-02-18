@@ -42,4 +42,7 @@ To begin with data exploration, I used summary statistics to get to know our dat
 
 Since I am using few dummy variables for the modelling, I am changing the data type for categorical variables from Character to Numeric binary variable (0/1) and applying feature engineering to create other dummy variables
 
+![image](https://user-images.githubusercontent.com/80222038/154723968-8c675687-345b-438a-a1bc-f9f688009fbd.png)
+
+
 
