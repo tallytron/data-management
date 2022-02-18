@@ -31,7 +31,7 @@ Before I built our model, I did several data cleaning procedures in R.
 
 As part of cleaning of the survey response data from the vendor. I have done a few steps of cleaning the data like removing unwanted variables (operational data fields), converting from numeric to character for categorical analysis, creating duplicate variables with both formatting one is used for quantitative, and another variable is used for qualitative analysis.  I joined the multiple datasets used in the analysis, I have used inner join on them as required. For example, I filtered out the customers who have finished the survey partially by selecting the “survey finished” using FILTER to remove the customer with  “survey partially finished.” 
 
-#### 2. Merging datasets
+### 2. Merging datasets
 
 I added City and Province in addition to “postalcode” using LEFT_JOINT by “postalcode” into the dataset to help me find whether the NPS score has any geographic features. (The cc file is another file including postcode, city, province, latitude, and longitude.) 
 
