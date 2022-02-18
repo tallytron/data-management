@@ -33,3 +33,10 @@ As part of cleaning of the survey response data from the vendor. I have done a f
 
 I added City and Province in addition to “postalcode” using LEFT_JOINT by “postalcode” into the dataset to help me find whether the NPS score has any geographic features. (The cc file is another file including postcode, city, province, latitude, and longitude.) 
 
+### 3. Data Exploration and Feature Engineering
+
+To begin with data exploration, I used summary statistics to get to know our data and used various other techniques to visualize them to uncover any insights. 
+
+Since I am using few dummy variables for the modelling, I am changing the data type for categorical variables from Character to Numeric binary variable (0/1) and applying feature engineering to create other dummy variables
+
+
